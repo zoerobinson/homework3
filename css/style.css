@@ -1,0 +1,129 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+body{
+	color: black;
+	font-family: "Andika", sans-serif;
+	font-size: 16px;
+	margin: 1.2em;
+	background-color: #DDDDDD;
+  	background-image: url(../images/pigeon-background.JPEG);
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center;
+}
+
+main{
+  	margin-bottom: 100px;
+}
+
+h1{
+  	color: #8000FF;
+  	font-size: 2em;
+  	line-height: 1.5;
+  	text-align: center;
+}
+
+caption{
+	margin:5px 0px;
+}
+
+p{
+	color: #000000;
+	font-size: 16px;
+	padding-top: 10px;}
+
+/*decorated links*/
+a{
+	font-size: 16px;
+	color: #B21F50;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+}
+
+/*focused elements have a border*/
+*:focus {
+  	border: 2px solid black;
+}
+
+table{
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: separate;
+  	margin: 0 auto; 
+  	border-radius: 15px; 
+}
+
+.colhead{
+  	background-color: #7e0820;
+  	color: white;
+  	text-align: center;
+  	text-transform: uppercase;
+  	min-width: 100px;
+  	padding: 10px;
+}
+
+.rowhead{
+	border-top: 2px solid black;
+}
+
+/*add top border to each cell*/
+td{
+  padding: 15px;
+  border-top: 2px solid black;
+}
+
+/*create a striped table*/
+tr:nth-child(odd){
+	background-color: #D1D1D1;
+}
+
+tr:nth-child(even){
+	background-color: #00000000;
+}
+
+/*change table heading color when hover over row*/
+tr:hover{
+ 	background-color: rgba(126,8,32,.5);
+}
+
+/*round upper table corners (headings)*/
+thead tr:first-child th:first-child{
+    border-top-left-radius: 15px;
+}
+
+thead tr:last-child th:last-child{
+    border-top-right-radius: 15px;
+}
+
+/*round low table corners*/
+tbody tr:last-child th:first-child{
+	border-bottom-left-radius: 15px;
+}
+
+tbody tr:last-child td:last-child{
+	border-bottom-right-radius: 15px;
+}
+
+
+footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  min-height: 60px;
+  background: #000000;
+  text-align:center;
+ }
+
+ footer p{
+  color: #ffffff;
+ }
+}
