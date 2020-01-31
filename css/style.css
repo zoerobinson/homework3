@@ -91,7 +91,8 @@ tr:nth-child(even){
 
 /*change table heading color when hover over row*/
 tr:hover{
- 	background-color: rgba(126,8,32,.5);
+ 	opacity: 1;
+	background-color: rgba(126,8,32,.5);
 }
 
 /*round upper table corners (headings)*/
